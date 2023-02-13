@@ -74,3 +74,7 @@
 .op_locales_description_last {
     margin-bottom: 25px;
 }
+
+.op_locales_description_link:link, .op_locales_description_link:visited {
+    color: #339CD8
+}
