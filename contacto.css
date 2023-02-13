@@ -1,0 +1,71 @@
+.contacto {
+    width: 100vw;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, rgba(39,95,122,1) 0%,
+     rgba(51,156,216,1) 100%)
+}
+
+.contacto_item {
+    display: flex;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.contacto_logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contacto_container {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contacto_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.contacto_map {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+
+
+.contacto a:link,
+.contacto a:visited,
+.contacto a:hover,
+.contacto a:active {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 950px) { 
+
+    .contacto_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacto_data {
+        margin-bottom: 10px;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .contacto_map {
+        display: none;
+    }
+}
