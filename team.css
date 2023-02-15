@@ -68,27 +68,27 @@
 }
 
 .mariano{
-    background-image: url("assets/mariano.jpg");
+    background-image: url("img/mariano.jpg");
 }
 
 .dario{
-    background-image: url("assets/dario.jpg");
+    background-image: url("img/dario.jpg");
 }
 
 .federico {
-    background-image: url("assets/federico.jpg");
+    background-image: url("img/federico.jpg");
 }
 
 .juanjo {
-    background-image: url("assets/Juanjo.jpg");
+    background-image: url("img/Juanjo.jpg");
 }
 
 .facundo {
-    background-image: url("assets/facundo.jpg");
+    background-image: url("img/facundo.jpg");
 }
 
 .member_empty {
-    background-image: url("assets/trama.png");
+    background-image: url("img/trama.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
