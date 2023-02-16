@@ -31,12 +31,13 @@ width: 100vw;
     linear-gradient(132deg,
     rgba(39,95,122,1) 0%,
     rgba(51,156,216,1) 35%), 
-    url("img/edificio.webp"); */
+    url("../img/edificio.webp"); */
     background-image: linear-gradient(90deg, rgba(39,95,122,0.6336659663865547) 0%,
      rgba(51,156,216,1) 100%),
-     url("img/edificio.webp");
+     url("../img/edificio.webp");
     margin-top: 50px;
-    user-select: none
+    user-select: none;
+    background-size: cover;
 }
 
 .nav {
@@ -137,7 +138,7 @@ width: 100vw;
     .home_title {
         font-size: 30px;
         margin-bottom: 25px;
-        margin-top: 15px;
+        margin-top: 40px;
     }
     
     .home_description {
@@ -175,7 +176,7 @@ body {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-image: url("img/top_arrow.png");
+    background-image: url("../img/top_arrow.png");
     background-size: contain;
     padding: 5px;
   }
