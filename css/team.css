@@ -27,7 +27,7 @@
     padding: 20px 0;
     padding-bottom: 80px;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
     margin: 0 auto;
     /* grid-template-columns: 40% 40%; */
     justify-content: center;
@@ -40,9 +40,13 @@
 }
 
 .team_member {
-    width: 400px;
+    /* width: 400px; */
     margin-bottom: 20px;
     margin: 20px auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 .team_member_name {
@@ -99,6 +103,12 @@
         width: 300px;
         margin-bottom: 20px;
         margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .member_second {
+        flex-direction: column-reverse;
     }
 
 }
